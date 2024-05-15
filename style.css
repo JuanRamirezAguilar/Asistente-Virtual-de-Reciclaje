@@ -1,0 +1,23 @@
+#chat-container {
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px; /* Espacio superior para separar el contenedor del chat de otros elementos */
+    margin-bottom: 10px;
+    max-height: 300px; /* Altura máxima del contenedor del chat para permitir el desplazamiento vertical */
+    overflow-y: auto; /* Habilitar el desplazamiento vertical si el contenido excede la altura máxima */
+}
+
+
+.mensaje-usuario {
+    color: blue; /* Color de texto para los mensajes del usuario */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mensaje-respuesta {
+    color: green; /* Color de texto para los mensajes de respuesta */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
